@@ -16,6 +16,13 @@ This is because React is **declarative** unlike VanilaJS which is **imperative**
 - we are also using a `placeholder` and `onChange`
 - `onChange` to call a function which will take the input ftom the `input` box using `event.target.value` whenever something chnages in the input box
 - then we check wether this input is in our dictionary(the emoji dictionary) or not and then use conditional programming to tell wether the meaning of the emoji if it is in our database or not using `set`
+### To dsiplay the list of the emojis
+- First we will take out all the emojis(keys) from the emoji dictionary we made
+- To do this we will use `Object.keys` 👇
+`var emojis = Object.keys(emojiDictionary);`
+- Now we have a list of emojis which were the keys in our emoji dictionary
+- Here we will `map` to access the elements in emojis list and then use this function in `map` to display all the emojis using the `<span>` tag
+- All these emojis are clickable i.e we are using `onClick` to call a function which will tell us the meaning of the emoji that the user clicked
 ### When user clicks on the emojis available
 - Here we are using `<span>` tag [a generic inline container for phrasing content like div]
 - we are using `onClick` which will call a function whenever an emoji is clicked
