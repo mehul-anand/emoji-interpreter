@@ -20,7 +20,7 @@ This is because React is **declarative** unlike VanilaJS which is **imperative**
 - First we will take out all the emojis(keys) from the emoji dictionary we made
 - To do this we will use `Object.keys` 👉 `var emojis = Object.keys(emojiDictionary);`
 - Now we have a list of emojis which were the keys in our emoji dictionary
-- Here we will `map` to access the elements in emojis list and then use this function in `map` to display all the emojis using the `<span>` tag
+- Here we will use `map` to access the elements in emojis list and then use this function in `map` to display all the emojis using the `<span>` tag
 - All these emojis are clickable i.e we are using `onClick` to call a function which will tell us the meaning of the emoji that the user clicked
 ### When user clicks on the emojis available
 - Here we are using `<span>` tag [a generic inline container for phrasing content like div]
