@@ -23,8 +23,7 @@ This is because React is **declarative** unlike VanilaJS which is **imperative**
 - Here we will use `map` to access the elements in emojis list and then use this function in `map` to display all the emojis using the `<span>` tag
 - All these emojis are clickable i.e we are using `onClick` to call a function which will tell us the meaning of the emoji that the user clicked
 ### When user clicks on the emojis available
-- Here we are using `<span>` tag [a generic inline container for phrasing content like div]
-- we are using `onClick` which will call a function whenever an emoji is clicked
+- Here we are used `<span>` tag [a generic inline container for phrasing content like div]
 - here we are using `emojiDictionary[item]` here item is the emoji we(user) clicked and we are using `[]` to access the `key` to find their respective `value`
 - then using `set` we will display the meaning of the emoji
 ### Display the Meaning
