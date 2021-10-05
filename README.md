@@ -40,5 +40,6 @@ This is because React is **declarative** unlike VanilaJS which is **imperative**
 - [event.target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target) 
 - [value](https://developer.mozilla.org/en-US/docs/Glossary/Value)
 - [span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
+- [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
 
